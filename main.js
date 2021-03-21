@@ -68,10 +68,10 @@ color = "black";
     function my_touchstart(e)
     {
         console.log("my_touchstart");
-        //Addictonal Activity start
+        
         color = document.getElementById("color").value;
         width_of_line = document.getElementById("width_of_line").value;
-        //Addictonal Activity ends
+        
 
         last_position_of_x = e.touches[0].clientX - canvas.offsetLeft;
         last_position_of_y = e.touches[0].clientY - canvas.offsetTop;

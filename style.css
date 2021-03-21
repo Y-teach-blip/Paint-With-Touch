@@ -10,12 +10,13 @@
   {
       color: red; 
       font-size: 40px;
+      font-family: 'Curlz MT';
   }
   #myCanvas
   {
       border-width:10px;
       background-color: white; 
-      border-style:ridge;
+      border-style: ridge;
   }
 
   button {
